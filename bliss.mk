@@ -1,8 +1,8 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/qcom-common/overlay-cm
 
@@ -15,10 +15,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
-PRODUCT_NAME := cm_xt897
+PRODUCT_NAME := bliss_xt897
 TARGET_VENDOR_PRODUCT_NAME := XT897
 TARGET_VENDOR_DEVICE_NAME := asanti_c
 
 
 $(call inherit-product, device/motorola/xt897/full_xt897.mk)
-
