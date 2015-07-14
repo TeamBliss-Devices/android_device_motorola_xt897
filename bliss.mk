@@ -1,3 +1,6 @@
+# Bliss Viper Audio Mod
+BLISS_AUDIO_MOD := viper
+
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
@@ -13,9 +16,6 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
-
-#Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
 
 PRODUCT_NAME := bliss_xt897
 TARGET_VENDOR_PRODUCT_NAME := XT897
